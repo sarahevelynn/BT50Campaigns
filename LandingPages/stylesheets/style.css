@@ -1,37 +1,129 @@
 body {
-  font-family: Helvetica
+  font-family: Helvetica;
+  color: #E5E7E9;
 }
-.top {
-  display:flex;
+
+header {
+  display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
-a {
-  color: #FDFEFE
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 30px;
 }
 
-a:hover {
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+.headerLogo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.navLink {
+  color: #1a5276;
+  font-size: 40px;
+  padding: 10px;
+  text-align: center
+}
+
+.navLink:hover {
+  color: #2e4e74;
+  text-decoration: underline;
+  text-decoration-color: #B3B6B7;
+  text-align: left
+}
+
+.headerLogo {
+  padding: 30px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  background-color: #154360;
+  margin: 10px 20px;
+}
+
+.trialText {
+  color: #E5E7E9;
 }
 
 .startFreeTrial {
   background-color: #c33539;
-  color: #FDFEFE;
-  font-size: 20px;
-  text-align: right;
+  text-align: center;
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 20px;
-  padding: 20px
+  padding: 15px;
 }
-.startFreeTrial:hover{
-  background-color: #2e4e74;
 
+.startFreeTrial:hover {
+  background-color: #2e4e74;
 }
 
 .title {
-  display:flex;
+  display: flex;
   justify-content: flex-start;
-  font-size: 50px;
-  padding:20px;
+  padding: 20px;
   margin-left: 40px;
+  text-align: center;
+}
+
+.widgets {
+  background-color: #c33539;
+  margin: 10px 20px;
+}
+
+.sectionHeader {
+  text-align: center;
+  padding: 30px 10px
+}
+
+.widgetSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: white;
+  margin: 15px
+}
+
+.divisionLine {
+}
+
+.list {
+  padding: 10px;
+  width: 50%;
+border-right: 6px solid #515A5A;}
+
+.map {
+  padding: 70px 10px;
+  width: 50%;
 }
