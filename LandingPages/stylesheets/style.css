@@ -98,14 +98,14 @@ h4 {
 }
 
 .widgets {
-  background-color: #c33539;
   margin: 10px 20px;
   padding: 10px 20px;
 }
 
 .sectionHeader {
   text-align: center;
-  padding: 30px 10px
+  padding: 30px 10px;
+  color: #2e4e74
 }
 
 .widgetSection {
@@ -131,7 +131,6 @@ h4 {
 
 .list {
   padding: 15px;
-  border-right: 60px solid #c33539;
 }
 
 .map {
