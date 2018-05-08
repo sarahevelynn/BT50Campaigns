@@ -143,7 +143,7 @@ h4 {
 }
 
 .howTo {
-  background-color: #154360;
+  background-color: #c33539;
   padding: 20px;
   margin: 10px 20px;
 }
@@ -153,6 +153,20 @@ h4 {
   flex-direction: row;
   justify-content: space-around;
   margin: 15px;
+}
+
+.startFreeTrialEnd {
+  background-color: #154360;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 15px;
+}
+
+.startFreeTrialEnd:hover {
+  background-color: #2e4e74;
 }
 
 .footerImage {
