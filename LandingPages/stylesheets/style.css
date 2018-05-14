@@ -12,8 +12,8 @@ header {
 footer {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  padding:25px
+  justify-content: space-between;
+  padding: 25px
 }
 
 nav {
@@ -98,7 +98,7 @@ h4 {
   text-align: center;
 }
 
-.widgets {
+.content {
   margin: 10px 20px;
   padding: 10px 20px;
 }
@@ -109,7 +109,7 @@ h4 {
   color: #2e4e74
 }
 
-.widgetSection {
+.subSection {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -117,12 +117,18 @@ h4 {
 }
 
 .description {
-  padding:10px;
+  padding: 10px;
   background-color: #154360;
-  margin:5px;
+  margin: 5px;
 }
 
-.one {
+.description1 {
+  padding: 10px;
+  background-color: #c33539;
+  margin: 5px;
+}
+
+.widgets {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -138,7 +144,7 @@ h4 {
   padding: 30px 10px;
   color: #2E4E74;
   text-align: center;
-  display:flex;
+  display: flex;
   justify-content: space-around;
   flex-direction: column;
 }
@@ -170,8 +176,29 @@ h4 {
   background-color: #2e4e74;
 }
 
+.landingPages {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottomButtons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.socialButtons {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .footerImage {
-  height:50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
+  padding-left: 30px
+}
+
+.socialImage {
+  height: 60px;
+  width: 60px;
   padding-left: 30px
 }
