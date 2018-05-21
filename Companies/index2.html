@@ -1,331 +1,336 @@
-<!DOCTYPE html >
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
+  <head>
+    <title>Welcome to BillTrack50</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
-	<title>Welcome to BillTrack50</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<style type="text/css">
-		* {
-			-ms-text-size-adjust: 100%;
-			-webkit-text-size-adjust: none;
-			-webkit-text-resize: 100%;
-			text-resize: 100%;
+  <style type="text/css">
+		*{
+			-ms-text-size-adjust:100%;
+			-webkit-text-size-adjust:none;
+			-webkit-text-resize:100%;
+			text-resize:100%;
+		}
+		a{
+			outline:none;
+			color:#40aceb;
+			text-decoration:underline;
+		}
+		a:hover{
+			text-decoration:none !important;
+		}
+		.nav a:hover{
+			text-decoration:underline !important;
+		}
+		.title a:hover{
+			text-decoration:underline !important;
+		}
+		.title-2 a:hover{
+			text-decoration:underline !important;
+		}
+		.btn:hover{
+			opacity:.8;
+		}
+		.btn a:hover{
+			text-decoration:none !important;
+		}
+		.btn{
+			-webkit-transition:all .3s ease;
+			-moz-transition:all .3s ease;
+			-ms-transition:all .3s ease;
+			transition:all .3s ease;
+		}
+		table td{
+			border-collapse:collapse !important;
+		}
+		.ExternalClass,.ExternalClass a,.ExternalClass span,.ExternalClass b,.ExternalClass br,.ExternalClass p,.ExternalClass div{
+			line-height:inherit;
+		}
+	@media only screen and (max-width:500px){
+		table[class=flexible]{
+			width:100% !important;
 		}
 
-		a {
-			outline: none;
-			color: #40aceb;
-			text-decoration: underline;
+}	@media only screen and (max-width:500px){
+		table[class=center]{
+			float:none !important;
+			margin:0 auto !important;
 		}
 
-		a:hover {
-			text-decoration: none !important;
+}	@media only screen and (max-width:500px){
+		[class=hide]{
+			display:none !important;
+			width:0 !important;
+			height:0 !important;
+			padding:0 !important;
+			font-size:0 !important;
+			line-height:0 !important;
 		}
 
-		.nav a:hover {
-			text-decoration: underline !important;
+}	@media only screen and (max-width:500px){
+		td[class=img-flex] img{
+			width:100% !important;
+			height:auto !important;
 		}
 
-		.title a:hover {
-			text-decoration: underline !important;
+}	@media only screen and (max-width:500px){
+		td[class=aligncenter]{
+			text-align:center !important;
 		}
 
-		.title-2 a:hover {
-			text-decoration: underline !important;
+}	@media only screen and (max-width:500px){
+		th[class=flex]{
+			display:block !important;
+			width:100% !important;
 		}
 
-		.btn:hover {
-			opacity: 0.8;
+}	@media only screen and (max-width:500px){
+		td[class=wrapper]{
+			padding:0 !important;
 		}
 
-		.btn a:hover {
-			text-decoration: none !important;
+}	@media only screen and (max-width:500px){
+		td[class=holder]{
+			padding:30px 15px 20px !important;
 		}
 
-		.btn {
-			-webkit-transition: all 0.3s ease;
-			-moz-transition: all 0.3s ease;
-			-ms-transition: all 0.3s ease;
-			transition: all 0.3s ease;
+}	@media only screen and (max-width:500px){
+		td[class=nav]{
+			padding:20px 0 0 !important;
+			text-align:center !important;
 		}
 
-		table td {
-			border-collapse: collapse !important;
+}	@media only screen and (max-width:500px){
+		td[class=h-auto]{
+			height:auto !important;
 		}
 
-		.ExternalClass,
-		.ExternalClass a,
-		.ExternalClass span,
-		.ExternalClass b,
-		.ExternalClass br,
-		.ExternalClass p,
-		.ExternalClass div {
-			line-height: inherit;
+}	@media only screen and (max-width:500px){
+		td[class=description]{
+			padding:30px 20px !important;
 		}
 
-		@media only screen and (max-width:500px) {
-			table[class="flexible"] {
-				width: 100% !important;
-			}
-			table[class="center"] {
-				float: none !important;
-				margin: 0 auto !important;
-			}
-			*[class="hide"] {
-				display: none !important;
-				width: 0 !important;
-				height: 0 !important;
-				padding: 0 !important;
-				font-size: 0 !important;
-				line-height: 0 !important;
-			}
-			td[class="img-flex"] img {
-				width: 100% !important;
-				height: auto !important;
-			}
-			td[class="aligncenter"] {
-				text-align: center !important;
-			}
-			th[class="flex"] {
-				display: block !important;
-				width: 100% !important;
-			}
-			td[class="wrapper"] {
-				padding: 0 !important;
-			}
-			td[class="holder"] {
-				padding: 30px 15px 20px !important;
-			}
-			td[class="nav"] {
-				padding: 20px 0 0 !important;
-				text-align: center !important;
-			}
-			td[class="h-auto"] {
-				height: auto !important;
-			}
-			td[class="description"] {
-				padding: 30px 20px !important;
-			}
-			td[class="i-120"] img {
-				width: 120px !important;
-				height: auto !important;
-			}
-			td[class="footer"] {
-				padding: 5px 20px 20px !important;
-			}
-			td[class="footer"] td[class="aligncenter"] {
-				line-height: 25px !important;
-				padding: 20px 0 0 !important;
-			}
-			tr[class="table-holder"] {
-				display: table !important;
-				width: 100% !important;
-			}
-			th[class="thead"] {
-				display: table-header-group !important;
-				width: 100% !important;
-			}
-			th[class="tfoot"] {
-				display: table-footer-group !important;
-				width: 100% !important;
-			}
+}	@media only screen and (max-width:500px){
+		td[class=i-120] img{
+			width:120px !important;
+			height:auto !important;
 		}
-	</style>
-</head>
 
-<body style="margin:0; padding:0;" bgcolor="#eaeced">
-	<table style="min-width:320px;" width="100%" cellspacing="0" cellpadding="0" bgcolor="#eaeced">
-		<!-- fix for gmail -->
-		<tr>
-			<td class="hide">
-				<table width="600" cellpadding="0" cellspacing="0" style="width:600px !important;">
-					<tr>
-						<td style="min-width:600px; font-size:0; line-height:0;">&nbsp;</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-		<tr>
-			<td class="wrapper" style="padding:0 10px;">
-				<!-- header -->
-				<table width="100%" cellpadding="0" cellspacing="0">
-					<tr>
-						<td bgcolor="#f9f9f9">
-							<table class="flexible" width="600" align="center" style="margin:0 auto;" cellpadding="0" cellspacing="0">
-								<tr>
-									<td style="padding:10px 0 10px;">
-										<table width="100%" cellpadding="0" cellspacing="0">
-											<tr>
-												<th class="flex" width="113" align="left" style="padding:0;">
-													<table class="center" cellpadding="0" cellspacing="0">
-														<tr>
-															<td style="line-height:0;">
-																<a target="_blank" style="text-decoration:none;" href="https://billtrack50.com/"><img src="https://gallery.mailchimp.com/ae8902e72943765907429f340/images/18e2f03e-2957-4a29-b36c-ac3f7eaedce5.png" alt="billtrack50.com" border="0" style="font:bold 12px/12px Arial, Helvetica, sans-serif; color:#606060; padding:20px;" align="left" vspace="0" hspace="0" height="140"/></a>
-															</td>
-														</tr>
-													</table>
-												</th>
-												<th class="flex" align="left" style="padding:0;">
-													<table width="100%" cellpadding="0" cellspacing="0">
-														<tr>
-															<td data-color="text" data-size="size navigation" data-min="10" data-max="22" data-link-style="text-decoration:none; color:#888;" class="nav" align="right" style="font:bold 25px/30px Arial, Helvetica, sans-serif; color:#888;">
-																<a target="_blank" style="text-decoration:none; color:#1A5276;" href="https://billtrack50.com/">Website</a> &nbsp; &nbsp; <a target="_blank" style="text-decoration:none; color:#1A5276;" href="https://www.billtrack50.com/blog/">Blog</a>																&nbsp; &nbsp; <a target="_blank" style="text-decoration:none; color:#1A5276;" href="mailto:info@legination.com">Contact</a>
-															</td>
-														</tr>
-													</table>
-												</th>
-											</tr>
-										</table>
-									</td>
-								</tr>
-							</table>
-						</td>
-					</tr>
-				</table>
-				<!---section--->
-				<table width="100%" cellpadding="0" cellspacing="0">
-					<tr>
-						<td bgcolor="#eaeced">
-							<table class="flexible" width="600" align="center" style="margin:0 auto;" cellpadding="0" cellspacing="0">
-								<tr>
-									<td style="padding:20px 30px;" bgcolor="#154360">
-										<table width="100%" cellpadding="0" cellspacing="0">
-											<tr>
-												<h1 data-color="title" data-size="size title" data-min="20" data-max="40" data-link-color="link title color" data-link-style="text-decoration:none; color:#292c34;" class="title" align="center" style="font:30px/33px Arial, Helvetica, sans-serif; color:#D5DBDB;">
-													Do you know about BillTrack50 Pro?
-												</h1>
-												<td data-color="title" data-size="size title" data-min="20" data-max="40" data-link-color="link title color" data-link-style="text-decoration:none; color:#292c34;" class="title" align="center" style="font:25px/30px Arial, Helvetica, sans-serif; color:#D5DBDB; padding:0 0 23px;">
-													Identify your key bills, we take care of the rest.
-												</td>
-											</tr>
-											<tr>
-												<td data-color="text" data-size="size text" data-min="10" data-max="26" data-link-color="link text color" data-link-style="font-weight:bold; text-decoration:underline; color:#40aceb;" align="center" style="font:16px/29px Arial, Helvetica, sans-serif; color:#F4F6F6; padding:0 0 21px;">
-													Get the most out of our services with BillTrack50 Pro - the only legislation tracking tool you need for the constantly changing legislation throughout the country. Our tools make it easier to stay on top of legislation that matters to you; share this
-													information throughout your organization, with your stakeholders, and even with the public <a href="https://www.billtrack50.com/blog/tips-and-tricks/how-to/sharing-important-bills-examples-for-inspiration/" target="_blank">(some examples)</a>.
-												</td>
-											</tr>
-										</table>
-									</td>
-								</tr>
-								<!--scorecards-->
-								<tr>
-									<td style="padding:20px 30px;" bgcolor="#c33539">
-										<table width="100%" cellpadding="0" cellspacing="0">
-											<tr>
-												<td data-color="title" data-size="size title" data-min="20" data-max="40" data-link-color="link title color" data-link-style="text-decoration:none; color:#292c34;" class="title" align="center" style="font:30px/33px Arial, Helvetica, sans-serif; color:#D5DBDB; padding:0 0 23px;">
-													Legislative Scorecards
-												</td>
-											</tr>
-											<tr>
-												<td data-color="text" data-size="size text" data-min="10" data-max="26" data-link-color="link text color" data-link-style="font-weight:bold; text-decoration:underline; color:#40aceb;" align="center" style="font:16px/29px Arial, Helvetica, sans-serif; color:#F4F6F6; padding:0 0 21px;">
-													Keep track of which legislators are working for your interests, and which are working against you. Our scorecard tool lets you choose a set of bills and rate them, and then we'll tally up votes and show you the results.
-													<br />
-													<a href="https://www.youtube.com/watch?v=lcdZQFpWRq8">Watch a quick 6 minute how-to video here.			</a> </td>
-											</tr>
-										</table>
-										<a> <img  src="https://gallery.mailchimp.com/ae8902e72943765907429f340/images/2decfe21-490f-440a-9c35-022f81744220.png" width="100%" alt="Legislator Score Cards" /> </a>
-									</td>
-								</tr>
-								<!--Widgets-->
-								<tr>
-									<td style="padding:20px 30px;" bgcolor="#154360">
-										<table width="100%" cellpadding="0" cellspacing="0">
-											<tr>
-												<td data-link-style="font-weight:bold; text-decoration:underline; color:#fff;" style="font:18px/23px Arial, Helvetica, sans-serif; color:#fff;">
-													Simply drop our widget on your website to easily share legislative developments with your users.
-													<br />
-													<br /> The bill list widget is kept up to date automatically and shows basic bill info for your chosen list of bills; the map widget lets you share your own custom information too.
-													<br />
-													<a style="font:17px/22px Arial, Helvetica, sans-serif; color:#40aceb;" href="https://www.youtube.com/watch?v=xnu1z4aSQ-w">Watch Short Bill List Tutorial Here</a> or <a style="font:17px/22px Arial, Helvetica, sans-serif; color:#40aceb;" href="https://www.youtube.com/watch?v=JAJdpT_xHSg">Watch Short Map Tutorial Here</a>
-													<br />
-													<a align="center" href="https://billtrack50.com/Products/Sharing#Widgets">Find Out More</a>
-												</td>
-											</tr>
-										</table>
-										<a> <img style="padding:5px 0px 15px 0px;" src="https://gallery.mailchimp.com/ae8902e72943765907429f340/images/caeadb64-9f0b-40aa-85f8-d24308940480.png" width="100%" alt="BillTrack50 Widget Map" /> </a>
-										<a> <img  src="https://gallery.mailchimp.com/ae8902e72943765907429f340/images/cc2d7efb-1c9c-4253-a42b-4fa9b0d9e80e.png" width="100%" alt="BillTrack50 Bill List Widget"/> </a>
-											<table width="100%" cellpadding="0" cellspacing="20px">
-												<tr>
-													<td align="center" style="font:20px/24px Arial, Helvetica, sans-serif; color:#f8f9fb; text-transform:uppercase; mso-padding-alt:12px 10px 10px; border-radius:4px;" bgcolor="#c33539">
-														<a target="_blank" style="text-decoration:none; color:#f8f9fb; display:block; padding:12px 10px 10px;" href="https://calendly.com/billtrack50">Sign up for a Demo</a>
-													</td>
-													<td align="center" style="font:20px/24px Arial, Helvetica, sans-serif; color:#f8f9fb; text-transform:uppercase; mso-padding-alt:12px 10px 10px; border-radius:4px;" bgcolor="#c33539">
-														<a target="_blank" style="text-decoration:none; color:#f8f9fb; display:block; padding:12px 10px 10px;" href="https://billtrack50.com/Account/BillSheet/New ">Start your Free Trial</a>
-													</td>
-												</tr>
-											</table>
-									</td>
-								</tr>
-						</td>
-					</tr>
-					<!--endOfFeatures-->
-					</table>
+}	@media only screen and (max-width:500px){
+		td[class=footer]{
+			padding:5px 20px 20px !important;
+		}
 
-					<!-- footer -->
-					<table width="100%" cellpadding="0" cellspacing="0">
-						<tr>
-							<td data-bgcolor="bg-module" bgcolor="#eaeced">
-								<table class="flexible" width="600" align="center" style="margin:0 auto;" cellpadding="0" cellspacing="0">
-									<tr>
-										<td class="footer" style="padding:0 0 10px;">
-											<table width="100%" cellpadding="0" cellspacing="0">
-												<tr class="table-holder">
-													<th class="tfoot" width="400" align="left" style="vertical-align:top; padding:0;">
-														<table width="100%" cellpadding="0" cellspacing="0">
-															<tr>
-																<td data-color="text" data-link-color="link text color" data-link-style="text-decoration:underline; color:#797c82;" class="aligncenter" style="font:16px/20px Arial, Helvetica, sans-serif; color:#797c82; padding:0 0 10px;">
-																	LegiNation, Inc, 2018. &nbsp; All Rights Reserved.
-																</td>
-															</tr>
-														</table>
-														<th class="thead" width="200" align="left" style="vertical-align:top; padding:0;">
-															<table class="center" align="right" cellpadding="0" cellspacing="0">
-																<tr width="20">
-																	<td class="btn" valign="top" style="line-height:0; padding:3px 0 0;">
-																		<a target="_blank" style="text-decoration:none; color:#1A5276;" href="mailto:info@legination.com"><img src="https://gallery.mailchimp.com/ae8902e72943765907429f340/images/2fa74f79-bd91-4886-9de5-1d1bdc1f6bcf.png" alt="Email Us" border="0" style="font:12px/15px Arial, Helvetica, sans-serif; color:#797c82;" align="left" vspace="0" hspace="0" height="30" alt="email" /></a>
-																	</td>
-																	<td width="20"></td>
-																	<td class="btn" valign="top" style="line-height:0; padding:3px 0 0;">
-																		<a target="_blank" style="text-decoration:none;" href="https://www.linkedin.com/company/legination-inc-/"><img src="https://gallery.mailchimp.com/ae8902e72943765907429f340/images/75abad65-4a34-41e3-9668-e17d0ca338a4.png" alt="Find us on LinkedIn" border="0" style="font:12px/15px Arial, Helvetica, sans-serif; color:#797c82;" align="left" vspace="0" hspace="0" height="30" alt="linkedIn" /></a>
-																	</td>
-																	<td width="20"></td>
-																	<td class="btn" valign="top" style="line-height:0; padding:3px 0 0;">
-																		<a target="_blank" style="text-decoration:none;" href="https://twitter.com/BillTrack50"><img src="https://gallery.mailchimp.com/ae8902e72943765907429f340/images/46a7690f-c892-4542-93eb-19ddb7692af3.png" alt="Find us on Twitter" border="0" style="font:12px/15px Arial, Helvetica, sans-serif; color:#797c82;" align="left" vspace="0" hspace="0" height="30" alt="twitter" /></a>
-																	</td>
-																	<td width="20"></td>
-																	<td class="btn" valign="top" style="line-height:0; padding:3px 0 0;">
-																		<a target="_blank" style="text-decoration:none;" href="https://www.facebook.com/LegiNation/"><img src="https://gallery.mailchimp.com/ae8902e72943765907429f340/images/5d69727d-cc0b-4c2c-af60-964b9e2b4d0c.png" alt="Find us on Facebook" border="0" style="font:12px/15px Arial, Helvetica, sans-serif; color:#797c82;" align="left" vspace="0" hspace="0" height="30" alt="facebook" /></a>
-																	</td>
-																</tr>
-															</table>
-															<tr>
-																<td valign="top" id="utilityBar">
-																	<div mc:edit="utility_bar">
-																		<a href="*|UNSUB|*" class="utilityLink">Unsubscribe</a><span class="mobileHide"> | </span><a href="*|UPDATE_PROFILE|*" class="utilityLink">Update Preferences</a>
-																		<!-- *|IFNOT:ARCHIVE_PAGE|* --><span class="mobileHide"> | </span><a href="*|ARCHIVE|*" class="utilityLink">View Email in Browser</a>
-																		<!-- *|END:IF|* -->
-																	</div>
-																</td>
-															</tr>
-														</th>
-												</tr>
-											</table>
-										</td>
-									</tr>
-								</table>
-							</td>
-						</tr>
-					</table>
-					</td>
-				</tr>
-		<!-- fix for gmail -->
-		<tr>
-			<td style="line-height:0;">
-				<div style="display:none; white-space:nowrap; font:15px/1px courier;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
-			</td>
-		</tr>
-		</table>
-</body>
+}	@media only screen and (max-width:500px){
+		td[class=footer] td[class=aligncenter]{
+			line-height:25px !important;
+			padding:20px 0 0 !important;
+		}
 
+}	@media only screen and (max-width:500px){
+		tr[class=table-holder]{
+			display:table !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width:500px){
+		th[class=thead]{
+			display:table-header-group !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width:500px){
+		th[class=tfoot]{
+			display:table-footer-group !important;
+			width:100% !important;
+		}
+
+}</style></head>
+  <body style="margin:0; padding:0;" bgcolor="#eaeced">
+    <table style="min-width:320px;" width="100%" cellspacing="0" cellpadding="0" bgcolor="#eaeced">
+      <!-- fix for gmail -->
+      <tr>
+        <td class="hide">
+          <table width="600" cellpadding="0" cellspacing="0" style="width:600px !important;">
+            <tr>
+              <td style="min-width:600px;font-size:0;line-height:0;"> </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td class="wrapper" style="padding:0 10px;">
+          <!-- header -->
+          <table width="100%" cellpadding="0" cellspacing="0">
+            <tr>
+              <td bgcolor="#f9f9f9">
+                <table class="flexible" width="600" align="center" style="margin:0 auto;" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td style="padding:10px 0 10px;">
+                      <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <th class="flex" width="113" align="left" style="padding:0;">
+                            <table class="center" cellpadding="0" cellspacing="0">
+                              <tr>
+                                <td style="line-height:0;">
+                                  <a target="_blank" style="text-decoration:none;" href="https://billtrack50.com/"><img src="https://gallery.mailchimp.com/ae8902e72943765907429f340/images/18e2f03e-2957-4a29-b36c-ac3f7eaedce5.png" alt="billtrack50.com" border="0" style="font:bold 12px/12px Arial, Helvetica, sans-serif; color:#606060; padding:20px;" align="left" vspace="0" hspace="0" height="140"></a>
+                                </td>
+                              </tr>
+                            </table>
+                          </th>
+                          <th class="flex" align="left" style="padding:0;">
+                            <table width="100%" cellpadding="0" cellspacing="0">
+                              <tr>
+                                <td class="nav" align="right" style="font:bold 25px/30px Arial, Helvetica, sans-serif;color:#888;">
+                                  <a target="_blank" style="text-decoration:none;color:#1A5276;" href="https://billtrack50.com/">Website</a>     <a target="_blank" style="text-decoration:none;color:#1A5276;" href="https://www.billtrack50.com/blog/">Blog</a>																    <a target="_blank" style="text-decoration:none;color:#1A5276;" href="mailto:info@legination.com">Contact</a>
+                                </td>
+                              </tr>
+                            </table>
+                          </th>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <!---section--->
+          <table width="100%" cellpadding="0" cellspacing="0">
+            <tr>
+              <td bgcolor="#eaeced">
+                <table class="flexible" width="600" align="center" style="margin:0 auto;" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td style="padding:20px 30px;" bgcolor="#154360">
+                      <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td class="title" align="center" style="font:25px/30px Arial, Helvetica, sans-serif;color:#D5DBDB;padding:0 0 23px;">
+                            Identify your key bills, we take care of the rest.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="center" style="font:16px/29px Arial, Helvetica, sans-serif;color:#F4F6F6;padding:0 0 21px;">
+                            Get the most out of our services with BillTrack50 Pro - the only legislation tracking tool you need for the constantly changing legislation throughout the country. Our tools make it easier to stay on top of legislation that matters to you; share this
+                            information throughout your organization, with your stakeholders, and even with the public <a href="https://www.billtrack50.com/blog/tips-and-tricks/how-to/sharing-important-bills-examples-for-inspiration/" target="_blank">(some examples)</a>.
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!--scorecards-->
+                  <tr>
+                    <td style="padding:20px 30px;" bgcolor="#c33539">
+                      <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td class="title" align="center" style="font:30px/33px Arial, Helvetica, sans-serif;color:#D5DBDB;padding:0 0 23px;">
+                            Legislative Scorecards
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="center" style="font:16px/29px Arial, Helvetica, sans-serif;color:#F4F6F6;padding:0 0 21px;">
+                            Keep track of which legislators are working for your interests, and which are working against you. Our scorecard tool lets you choose a set of bills and rate them, and then we'll tally up votes and show you the results.
+                            <br><a href="https://www.youtube.com/watch?v=lcdZQFpWRq8">Watch a quick 6 minute how-to video here.			</a> </td>
+                          </tr>
+                          </table><a> <img src="https://gallery.mailchimp.com/ae8902e72943765907429f340/images/2decfe21-490f-440a-9c35-022f81744220.png" width="100%" alt="Legislator Score Cards"></a>
+                        </td>
+                      </tr>
+                      <!--Widgets-->
+                      <tr>
+                        <td style="padding:20px 30px;" bgcolor="#154360">
+                          <table width="100%" cellpadding="0" cellspacing="0">
+                            <tr>
+                              <td style="font:18px/23px Arial, Helvetica, sans-serif;color:#fff;">
+                                Simply drop our widget on your website to easily share legislative developments with your users.
+                                <br>
+                                <br> The bill list widget is kept up to date automatically and shows basic bill info for your chosen list of bills; the map widget lets you share your own custom information too.
+                                <br><a style="font:17px/22px Arial, Helvetica, sans-serif;color:#40aceb;" href="https://www.youtube.com/watch?v=xnu1z4aSQ-w">Watch Short Bill List Tutorial Here</a> or <a style="font:17px/22px Arial, Helvetica, sans-serif;color:#40aceb;" href="https://www.youtube.com/watch?v=JAJdpT_xHSg">Watch Short Map Tutorial Here</a>
+                                <br><a href="https://billtrack50.com/Products/Sharing#Widgets">Find Out More</a>
+                              </td>
+                            </tr>
+                            </table><a> <img style="padding:5px 0px 15px 0px;" src="https://gallery.mailchimp.com/ae8902e72943765907429f340/images/aac6e7c4-dc33-4e02-a3fb-2ab08a667ef7.png" width="100%" alt="BillTrack50 Widget Map"></a>
+                            <a> <img src="https://gallery.mailchimp.com/ae8902e72943765907429f340/images/cc2d7efb-1c9c-4253-a42b-4fa9b0d9e80e.png" width="100%" alt="BillTrack50 Bill List Widget"></a>
+                            <table width="100%" cellpadding="0" cellspacing="20">
+                              <tr>
+                                <td align="center" style="font:20px/24px Arial, Helvetica, sans-serif;color:#f8f9fb;text-transform:uppercase;mso-padding-alt:12px 10px 10px;border-radius:4px;" bgcolor="#c33539">
+                                  <a target="_blank" style="text-decoration:none;color:#f8f9fb;display:block;padding:12px 10px 10px;" href="https://calendly.com/billtrack50">Sign up for a Demo</a>
+                                </td>
+                                <td align="center" style="font:20px/24px Arial, Helvetica, sans-serif;color:#f8f9fb;text-transform:uppercase;mso-padding-alt:12px 10px 10px;border-radius:4px;" bgcolor="#c33539">
+                                  <a target="_blank" style="text-decoration:none;color:#f8f9fb;display:block;padding:12px 10px 10px;" href="https://billtrack50.com/Account/BillSheet/New%20">Start your Free Trial</a>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <!--endOfFeatures-->
+                      </table>
+                      <!-- footer -->
+                      <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td bgcolor="#eaeced">
+                            <table class="flexible" width="600" align="center" style="margin:0 auto;" cellpadding="0" cellspacing="0">
+                              <tr>
+                                <td class="footer" style="padding:0 0 10px;">
+                                  <table width="100%" cellpadding="0" cellspacing="0">
+                                    <tr class="table-holder">
+                                      <th class="tfoot" width="400" align="left" style="vertical-align:top;padding:0;">
+                                        <table width="100%" cellpadding="0" cellspacing="0">
+                                          <tr>
+                                            <td class="aligncenter" style="font:16px/20px Arial, Helvetica, sans-serif;color:#797c82;padding:0 0 10px;">
+                                              LegiNation, Inc, 2018.   All Rights Reserved.
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </th>
+                                      <th class="thead" width="200" align="left" style="vertical-align:top;padding:0;">
+                                        <table class="center" align="right" cellpadding="0" cellspacing="0">
+                                          <tr>
+                                            <td class="btn" valign="top" style="line-height:0;padding:3px 0 0;">
+                                              <a target="_blank" style="text-decoration:none;color:#1A5276;" href="mailto:info@legination.com"><img src="https://gallery.mailchimp.com/ae8902e72943765907429f340/images/2fa74f79-bd91-4886-9de5-1d1bdc1f6bcf.png" alt="Email Us" border="0" style="font:12px/15px Arial, Helvetica, sans-serif; color:#797c82;" align="left" vspace="0" hspace="0" height="30"></a>
+                                            </td>
+                                            <td width="20"></td>
+                                            <td class="btn" valign="top" style="line-height:0;padding:3px 0 0;">
+                                              <a target="_blank" style="text-decoration:none;" href="https://www.linkedin.com/company/legination-inc-/"><img src="https://gallery.mailchimp.com/ae8902e72943765907429f340/images/75abad65-4a34-41e3-9668-e17d0ca338a4.png" alt="Find us on LinkedIn" border="0" style="font:12px/15px Arial, Helvetica, sans-serif; color:#797c82;" align="left" vspace="0" hspace="0" height="30"></a>
+                                            </td>
+                                            <td width="20"></td>
+                                            <td class="btn" valign="top" style="line-height:0;padding:3px 0 0;">
+                                              <a target="_blank" style="text-decoration:none;" href="https://twitter.com/BillTrack50"><img src="https://gallery.mailchimp.com/ae8902e72943765907429f340/images/46a7690f-c892-4542-93eb-19ddb7692af3.png" alt="Find us on Twitter" border="0" style="font:12px/15px Arial, Helvetica, sans-serif; color:#797c82;" align="left" vspace="0" hspace="0" height="30"></a>
+                                            </td>
+                                            <td width="20"></td>
+                                            <td class="btn" valign="top" style="line-height:0;padding:3px 0 0;">
+                                              <a target="_blank" style="text-decoration:none;" href="https://www.facebook.com/LegiNation/"><img src="https://gallery.mailchimp.com/ae8902e72943765907429f340/images/5d69727d-cc0b-4c2c-af60-964b9e2b4d0c.png" alt="Find us on Facebook" border="0" style="font:12px/15px Arial, Helvetica, sans-serif; color:#797c82;" align="left" vspace="0" hspace="0" height="30"></a>
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </th>
+                                    </tr>
+                                    <tr>
+                                      <td valign="top" id="utilityBar">
+                                        <div mc:edit="utility_bar">
+                                          <a href="*|UNSUB|*" class="utilityLink">Unsubscribe</a><span class="mobileHide"> | </span><a href="*|UPDATE_PROFILE|*" class="utilityLink">Update Preferences</a>
+                                          <!-- *|IFNOT:ARCHIVE_PAGE|* --><span class="mobileHide"> | </span><a href="*|ARCHIVE|*" class="utilityLink">View Email in Browser</a>
+                                          <!-- *|END:IF|* -->
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- fix for gmail -->
+                  <tr>
+                    <td style="line-height:0;">
+                      <div style="display:none;white-space:nowrap;font:15px/1px courier;">                                                                 </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </body>
 </html>
